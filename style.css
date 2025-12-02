@@ -24,6 +24,7 @@
 .pass-section {
   padding-top: 7rem;
   color: aliceblue;
+  padding-bottom: 3rem;
 }
 .input-group-text{
   width: 20%;
@@ -65,9 +66,7 @@ column-gap: 10px;
 font-size: 1.2rem;
   margin-top: 1.5rem;
 }
-.button button:hover{
-  color: aliceblue;
-}
+
 
 @media screen and (max-width: 973px){
   .heading h1 {
