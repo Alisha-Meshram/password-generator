@@ -15,7 +15,10 @@
 #password-generator {
   background-image: url("background.jpg");
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .pass-section {
@@ -61,4 +64,15 @@ column-gap: 10px;
   color: black;
 font-size: 1.2rem;
   margin-top: 1.5rem;
+}
+.button button:hover{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 973px){
+  .heading h1 {
+    
+    font-size: 2.5rem;
+  }
+
 }
