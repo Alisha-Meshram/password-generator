@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading h2 {
+  margin-bottom: 2rem !important;
+}
+
+.heading h1 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+#password-generator {
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.pass-section {
+  padding-top: 7rem;
+  color: aliceblue;
+}
+.input-group-text{
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input-group{
+gap: 10px;
+}
+.input-box{
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.select-option {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 20px;
+  margin-top: 20px;
+}
+.select-option label {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+  align-items: center;
+column-gap: 10px;
+  font-size: 1.3rem;
+}
+.select-option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+.button button {
+  padding: 1rem;
+  border: none;
+  background-color: rgb(211, 142, 52);
+  color: black;
+
+  margin-top: 1.5rem;
+}
